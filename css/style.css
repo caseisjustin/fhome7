@@ -376,7 +376,8 @@ main {
     width: 100%;
     /* gap: 1rem; */
     margin-top: 40px;
-    position: relative;
+    /* position: relative; */
+    justify-content: space-between;
 }
 
 /* .popular_products_items .fa-solid {
@@ -390,6 +391,8 @@ main {
 }
 
 .popular_products_items .swiper-slide{
+    display: flex;
+    justify-content: space-between;
     width: 100%;
 }
 
